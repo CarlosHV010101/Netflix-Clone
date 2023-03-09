@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TrendingMoviesResponse: Decodable {
+struct TitleResponse: Decodable {
     let results: [Title]
 }
 
